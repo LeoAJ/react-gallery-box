@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component properly 1`] = `
+<div
+  className="container"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    key="0"
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <img
+      alt="url1"
+      src="url1"
+    />
+  </div>
+  <div
+    key="1"
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <img
+      alt="url2"
+      src="url2"
+    />
+  </div>
+  <div
+    key="2"
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <img
+      alt="url3"
+      src="url3"
+    />
+  </div>
+</div>
+`;
+
+exports[`should set state when mouse event triggered 1`] = `
+<div
+  className="container"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    key="0"
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <img
+      alt="url1"
+      src="url1"
+    />
+  </div>
+  <div
+    key="1"
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <img
+      alt="url2"
+      src="url2"
+    />
+  </div>
+  <div
+    key="2"
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <img
+      alt="url3"
+      src="url3"
+    />
+  </div>
+</div>
+`;

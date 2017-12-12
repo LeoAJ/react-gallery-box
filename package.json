@@ -1,0 +1,51 @@
+{
+  "name": "react-gallery-box",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "Leo Hsieh <leo0924@gmail.com> (http://leoj.js.org)",
+  "scripts": {
+    "test": "yarn flow && yarn jest",
+    "flow": "flow",
+    "jest:update": "jest -u",
+    "jest": "jest",
+    "dev": "babel -w src -d lib",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "react",
+    "photo",
+    "gallery",
+    "box"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.2.2",
+    "flow-bin": "^0.61.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^21.2.1",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy"
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
