@@ -64,7 +64,7 @@ class ReactGalleryBox extends PureComponent<Props, State> {
         {images.map((src, i) => (
           <div
             key={i}
-            className={clx('item'), itemClassnName}
+            className={clx('item', itemClassnName)}
             style={{
               opacity: visibleImageIndex === i ? 1 : 0
             }}
