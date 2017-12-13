@@ -27,7 +27,7 @@ class ReactGalleryBox extends PureComponent<Props, State> {
   static defaultProps = {
     visibleImageIndex: 0,
     images: [],
-    delay: 1000
+    delay: 1500
   };
 
   timer: any = null;

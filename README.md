@@ -28,7 +28,7 @@ import ReactGalleryBox from 'react-gallery-box';
 
 * `images`: array, list of image urls. Default `[]`
 * `visibleImageIndex`: number, starting index of image array. Default `0`
-* `delay`: number, millisecond of time interval between image switch. Defalt `1000`
+* `delay`: number, millisecond of time interval between image switch. Defalt `1500`
 * `containerClassnName`: string, custom css class for div container
 * `itemClassnName`: string, custom css class for individual image div
 
