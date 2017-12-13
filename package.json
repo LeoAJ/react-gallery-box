@@ -9,8 +9,7 @@
     "flow": "flow",
     "jest:update": "jest -u",
     "jest": "jest",
-    "dev": "babel -w src -d lib",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib --copy-files --ignore __tests__"
   },
   "keywords": [
     "react",
