@@ -1,7 +1,7 @@
 {
   "name": "react-gallery-box",
   "version": "0.1.0",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "author": "Leo Hsieh <leo0924@gmail.com> (http://leoj.js.org)",
   "scripts": {
