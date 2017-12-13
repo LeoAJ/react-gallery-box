@@ -8,10 +8,16 @@
 
 Hover over mouse to see your photo gallery
 
+![rgb](https://user-images.githubusercontent.com/492921/33963986-c59dab26-e00b-11e7-9b40-057aef1130b8.gif)
+
+## Demo
+
+[![Edit Demo : react-gallery-box](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/0yzmk24wqw)
+
 ## Install
 
 ```
-yarn add react-gallery-box
+yarn add react-gallery-box -S
 ```
 
 ## Usage
