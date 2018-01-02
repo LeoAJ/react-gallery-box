@@ -39,6 +39,6 @@ import ReactGalleryBox from 'react-gallery-box';
 * `containerClassnName`: string, custom css class for div container
 * `itemClassnName`: string, custom css class for individual image div
 
-License
+## License
 
 MIT © [Leo](https://github.com/LeoAJ)
