@@ -1,5 +1,5 @@
 // @flow
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import clx from 'classnames';
 import './style.css';
@@ -14,7 +14,7 @@ type Props = {
 
 type State = { visibleImageIndex: number };
 
-class ReactGalleryBox extends PureComponent<Props, State> {
+class ReactGalleryBox extends Component<Props, State> {
   
   static propTypes = {
     visibleImageIndex: PropTypes.number,
@@ -49,12 +49,12 @@ class ReactGalleryBox extends PureComponent<Props, State> {
   }
 
   render() {
-    const { visibleImageIndex } = this.state;
+    const { visibleImageIndex }: State = this.state;
     const {
       images,
       containerClassnName,
       itemClassnName
-    } = this.props;
+    }: Props = this.props;
     return (
       <div
         className={clx('container', containerClassnName)}
