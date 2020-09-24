@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0"
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0"
   },
   "jest": {
     "moduleNameMapper": {
